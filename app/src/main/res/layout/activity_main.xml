@@ -57,7 +57,18 @@
         android:id="@+id/img"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_background" />[
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/txvvb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="震動"
+        android:textSize="36sp" />
+
+    [
     android:layout_height="wrap_content"
     android:onClick="AddTwo"
     android:text="加2"
